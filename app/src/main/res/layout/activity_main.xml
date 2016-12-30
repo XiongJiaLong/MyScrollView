@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.myscrollview.MainActivity">
+
+    <com.example.administrator.myscrollview.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mScrollView">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            android:src="@mipmap/a0003"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/mImg"/>
+
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@mipmap/a0003"
+                        android:layout_centerHorizontal="true"
+                        android:scaleType="fitCenter" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/img"
+                        android:layout_centerHorizontal="true"
+                        android:text="This is a card view"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@mipmap/a0003"
+                        android:layout_centerHorizontal="true"
+                        android:scaleType="fitCenter" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/img"
+                        android:layout_centerHorizontal="true"
+                        android:text="This is a card view"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@mipmap/a0003"
+                        android:layout_centerHorizontal="true"
+                        android:scaleType="fitCenter" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/img"
+                        android:layout_centerHorizontal="true"
+                        android:text="This is a card view"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@mipmap/a0003"
+                        android:layout_centerHorizontal="true"
+                        android:scaleType="fitCenter" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/img"
+                        android:layout_centerHorizontal="true"
+                        android:text="This is a card view"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@mipmap/a0003"
+                        android:layout_centerHorizontal="true"
+                        android:scaleType="fitCenter" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/img"
+                        android:layout_centerHorizontal="true"
+                        android:text="This is a card view"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                card_view:cardBackgroundColor="#ffffff"
+                card_view:contentPadding="5dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardElevation="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@mipmap/a0003"
+                        android:layout_centerHorizontal="true"
+                        android:scaleType="fitCenter" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/img"
+                        android:layout_centerHorizontal="true"
+                        android:text="This is a card view"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </LinearLayout>
+    </com.example.administrator.myscrollview.MyScrollView>
+</RelativeLayout>
